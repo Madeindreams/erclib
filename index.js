@@ -28,6 +28,13 @@ const NETWORK =
         chainId: 5,
         type: "Test"
     },
+    42: {
+        id: 42,
+        network: "Kovan",
+        chain: "ETH",
+        chainId: 42,
+        type: "Test"
+    },
     2018: {
         id: 2018,
         network: "dev",
