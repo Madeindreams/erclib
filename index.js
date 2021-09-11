@@ -217,4 +217,5 @@ const ERC20 =
 
 export {
     ERC20,
+    NETWORK
 }
