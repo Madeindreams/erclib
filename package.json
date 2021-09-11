@@ -1,0 +1,25 @@
+{
+  "name": "@idecentralize/erclib",
+  "version": "1.0.0",
+  "description": "ERC library for blockchain development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madeindreams/erclib.git"
+  },
+  "keywords": [
+    "erclib",
+    "blockchain",
+    "tool",
+    "dev"
+  ],
+  "author": "Iand Decentralize",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Madeindreams/erclib/issues"
+  },
+  "homepage": "https://github.com/Madeindreams/erclib#readme"
+}
