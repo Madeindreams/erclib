@@ -12,28 +12,28 @@ const NETWORK =
         network: "Ropsten",
         chain: "ETH",
         chainId: 3,
-        type: "Test"
+        type: "Testnet"
     },
     4: {
         id: 4,
         network: "Rinkeby",
         chain: "ETH",
         chainId: 4,
-        type: "Test"
+        type: "Testnet"
     },
     5: {
         id: 5,
         network: "Goerli",
         chain: "ETH",
         chainId: 5,
-        type: "Test"
+        type: "Testnet"
     },
     42: {
         id: 42,
         network: "Kovan",
         chain: "ETH",
         chainId: 42,
-        type: "Test"
+        type: "Testnet"
     },
     2018: {
         id: 2018,
@@ -47,35 +47,35 @@ const NETWORK =
         network: "Polygon",
         chain: "MATIC",
         chainId: 137,
-        type: "Production"
+        type: "Network"
     },
     8001: {
         id: 8001,
         network: "Mumbai",
         chain: "MATIC",
         chainId: 8001,
-        type: "Test"
+        type: "Testnet"
     },
     56: {
         id: 56,
         network: "BSC",
         chain: "BNB",
         chainId: 56,
-        type: "Production"
+        type: "Network"
     },
     97: {
         id: 97,
-        network: "BSC Test",
+        network: "BSC",
         chain: "BNB",
         chainId: 97,
-        type: "Test"
+        type: "Testnet"
     },
     100: {
         id: 100,
         network: "xDai",
         chain: "xDai",
         chainId: 100,
-        type: "Production"
+        type: "Network"
     },
 
 
