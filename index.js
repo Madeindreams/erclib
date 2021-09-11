@@ -77,6 +77,14 @@ const NETWORK =
         chainId: 100,
         type: "Network"
     },
+    31337: {
+        id: 31337,
+        network: "Local",
+        chain: "ETH",
+        chainId: 31337,
+        type: "Network"
+    },
+
 }
 
 
