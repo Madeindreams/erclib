@@ -13,6 +13,24 @@ In development. More Networks and features are coming
 ```const usdc = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"```
 
 ```ERC20[usdc].decimals  // output decimals of asset```
+
 ```ERC20[usdc].compound  // output cToken address```
+
+
+# Supported Network
+
+- Ethereum
+- Polygon
+- BSC
+- xDAI
+
+# Supported Protocols
+
+- Compound
+- Aave
+- Yearn
+
+
+Please repport any issues!
 
 
