@@ -3,7 +3,7 @@ const NETWORK =
     1: {
         id: 1,
         network: "Mainnet",
-        chain: "Ethereum",
+        chain: "ETH",
         chainId: 1,
         type: "Production"
     },
@@ -72,8 +72,8 @@ const NETWORK =
     },
     100: {
         id: 100,
-        network: "xDai",
-        chain: "xDai",
+        network: "xDAI",
+        chain: "xDAI",
         chainId: 100,
         type: "Network"
     },
@@ -253,8 +253,6 @@ const ERC20 =
     }
 
 };
-
-
 
 
 export {
