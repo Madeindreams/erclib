@@ -49,11 +49,11 @@ const NETWORK =
         chainId: 137,
         type: "Network"
     },
-    8001: {
-        id: 8001,
+    80001: {
+        id: 80001,
         network: "Mumbai",
         chain: "MATIC",
-        chainId: 8001,
+        chainId: 80001,
         type: "Testnet"
     },
     56: {
