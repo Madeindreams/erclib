@@ -78,7 +78,7 @@ const NETWORK =
         chain: "BNB",
         chainId: 97,
         type: "Testnet",
-        explorer: "https://testnet.bscscan.com"
+        explorer: "https://testnet.bscscan.com/"
     },
     100: {
         id: 100,
@@ -86,7 +86,7 @@ const NETWORK =
         chain: "xDAI",
         chainId: 100,
         type: "Network",
-        explorer: "https://testnet.bscscan.com"
+        explorer: "https://testnet.bscscan.com/"
     },
     31337: {
         id: 31337,
