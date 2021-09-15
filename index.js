@@ -5,84 +5,96 @@ const NETWORK =
         network: "Mainnet",
         chain: "ETH",
         chainId: 1,
-        type: "Production"
+        type: "Production",
+        explorer: "https://etherscan.io/address/"
     },
     3: {
         id: 3,
         network: "Ropsten",
         chain: "ETH",
         chainId: 3,
-        type: "Testnet"
+        type: "Testnet",
+        explorer: "https://ropsten.etherscan.io/address/"
     },
     4: {
         id: 4,
         network: "Rinkeby",
         chain: "ETH",
         chainId: 4,
-        type: "Testnet"
+        type: "Testnet",
+        explorer: "https://ringeby.etherscan.io/address/"
     },
     5: {
         id: 5,
         network: "Goerli",
         chain: "ETH",
         chainId: 5,
-        type: "Testnet"
+        type: "Testnet",
+        explorer: "https://goerli.etherscan.io/address/"
     },
     42: {
         id: 42,
         network: "Kovan",
         chain: "ETH",
         chainId: 42,
-        type: "Testnet"
+        type: "Testnet",
+        explorer: "https://kovan.goerli.etherscan.io/address/"
     },
     2018: {
         id: 2018,
         network: "dev",
         chain: "ETH",
         chainId: 2018,
-        type: "Development"
+        type: "Development",
+        explorer: ""
     },
     137: {
         id: 137,
         network: "Polygon",
         chain: "MATIC",
         chainId: 137,
-        type: "Network"
+        type: "Network",
+        explorer: "https://polygonscan.com/address/"
     },
     80001: {
         id: 80001,
         network: "Mumbai",
         chain: "MATIC",
         chainId: 80001,
-        type: "Testnet"
+        type: "Testnet",
+        explorer: "https://mumbai.polygonscan.com/address/"
     },
     56: {
         id: 56,
         network: "BSC",
         chain: "BNB",
         chainId: 56,
-        type: "Network"
+        type: "Network",
+        explorer: "https://bscscan.com/address/"
     },
     97: {
         id: 97,
         network: "BSC",
         chain: "BNB",
         chainId: 97,
-        type: "Testnet"
+        type: "Testnet",
+        explorer: "https://testnet.bscscan.com"
     },
     100: {
         id: 100,
         network: "xDAI",
         chain: "xDAI",
         chainId: 100,
-        type: "Network"
+        type: "Network",
+        explorer: "https://testnet.bscscan.com"
     },
     31337: {
         id: 31337,
         network: "Local",
         chain: "ETH",
         chainId: 31337,
-        type: "Network"
+        type: "Network",
+        explorer: ""
     },
 
 }

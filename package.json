@@ -1,6 +1,6 @@
 {
   "name": "@idecentralize/erclib",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "ERC library for blockchain development",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "tool",
     "dev"
   ],
-  "author": "Iand Decentralize",
+  "author": "Ian Decentralize",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/Madeindreams/erclib/issues"
