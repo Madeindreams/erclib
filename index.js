@@ -1,3 +1,14 @@
+
+const PROTOCOL = {
+
+    compound:{ 
+  
+        name:"Ethereum"
+    },
+
+}
+
+
 const NETWORK =
 {
     1: {
@@ -100,48 +111,58 @@ const NETWORK =
 }
 
 
+// ERC20[network][address].value
 
-const ERC20 = 
-{
-    "0x0000000000000000000000000000000000000000": {
-        address:"0x0000000000000000000000000000000000000000",
-        decimals: 18,
-        symbol: "ETH",
-        name: "Ether",
-        color: "#000000",
-        compound:"0x4Ddc2D193948926D02f9B1fE9e1daa0718270ED5",
-        aave: "0x030bA81f1c18d280636F32af80b9AAd02Cf0854e",
-        yearn: "0xa258C4606Ca8206D8aA700cE2143D7db854D168c"
-    },
-    "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
-        address:"0x6B175474E89094C44Da98b954EedeAC495271d0F",
-        decimals: 18,
-        symbol: "DAI",
-        name: "Dai Stablecoin",
-        color: "#000000",
-        compound: "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643",
-        aave: "0x028171bCA77440897B824Ca71D1c56caC55b68A3",
-        yearn: "0xdA816459F1AB5631232FE5e97a05BBBb94970c95"
-    },
-    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
-        address:"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        decimals: 6,
-        symbol: "USDC",
-        name: "USD Coin",
-        color: "#000000",
-        compound: "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
-        aave: "0xBcca60bB61934080951369a648Fb03DF4F96263C",
-        yearn: "0x5f18C75AbDAe578b483E5F43f12a39cF75b973a9"
-    },
-    "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
-        address:"0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        decimals: 6,
-        symbol: "USDT",
-        name: "Tether USD",
-        color: "#000000",
-        compound: "0xf650C3d88D12dB855b8bf7D11Be6C55A4e07dCC9",
-        aave: "0x3Ed3B47Dd13EC9a98b44e6204A523E766B225811",
-        yearn: "0x7Da96a3891Add058AdA2E826306D812C638D87a7"
+const ERC20 = {
+    // mainet
+    1:{
+ 
+        // ETH
+        "0x0000000000000000000000000000000000000000": {
+            // default
+            decimals: 18,
+            symbol: "ETH",
+            name: "Ether",
+            color: "#000000",
+            address:"0x0000000000000000000000000000000000000000",
+            compound:"0x4Ddc2D193948926D02f9B1fE9e1daa0718270ED5",
+            aave: "0x030bA81f1c18d280636F32af80b9AAd02Cf0854e",
+            yearn: "0xa258C4606Ca8206D8aA700cE2143D7db854D168c"
+
+        },
+
+        // DAI
+        "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
+ 
+            decimals: 18,
+            symbol: "DAI",
+            name: "Dai Stablecoin",
+            color: "#000000",
+            address:"0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            compound: "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643",
+            aave: "0x028171bCA77440897B824Ca71D1c56caC55b68A3",
+            yearn: "0xdA816459F1AB5631232FE5e97a05BBBb94970c95"
+      
+        },
+        "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+            address:"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            decimals: 6,
+            symbol: "USDC",
+            name: "USD Coin",
+            color: "#000000",
+            compound: "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
+            aave: "0xBcca60bB61934080951369a648Fb03DF4F96263C",
+            yearn: "0x5f18C75AbDAe578b483E5F43f12a39cF75b973a9"
+        },
+        "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+            address:"0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            decimals: 6,
+            symbol: "USDT",
+            name: "Tether USD",
+            color: "#000000",
+            compound: "0xf650C3d88D12dB855b8bf7D11Be6C55A4e07dCC9",
+            aave: "0x3Ed3B47Dd13EC9a98b44e6204A523E766B225811",
+            yearn: "0x7Da96a3891Add058AdA2E826306D812C638D87a7"
     },
     "0x0000000000085d4780B73119b644AE5ecd22b376": {
         address:"0x0000000000085d4780B73119b644AE5ecd22b376",
@@ -262,6 +283,100 @@ const ERC20 =
         compound: "0xB3319f5D18Bc0D84dD1b4825Dcde5d5f7266d407",
         aave: "0xDf7FF54aAcAcbFf42dfe29DD6144A69b629f8C9e",
         yearn: ""
+    },
+    4:{  // RINKEBY COMPOUND ONLY
+         // ETH
+        "0x0000000000000000000000000000000000000000": {
+
+            decimals: 18,
+            symbol: "ETH",
+            name: "Ether",
+            color: "#000000",
+            address:"0x0000000000000000000000000000000000000000",
+            compound:"0xd6801a1DfFCd0a410336Ef88DeF4320D6DF1883e",
+            aave: "",
+            yearn: ""
+        },
+        // DAI
+        "0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa": {
+
+            decimals: 18,
+            symbol: "DAI",
+            name: "Dai Stablecoin",
+            color: "#000000",
+            address:"0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa",
+            compound: "0x6D7F0754FFeb405d23C51CE938289d4835bE3b14",
+            aave: "",
+            yearn: ""
+  
+        }, 
+        "0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b": {
+
+            address:"0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b",
+            decimals: 8,
+            symbol: "USDC",
+            name: "USD Coin",
+            color: "#000000",
+            compound: "0x5B281A6DdA0B271e91ae35DE655Ad301C976edb1",
+            aave: "",
+            yearn: ""
+        },
+        "0xD9BA894E0097f8cC2BBc9D24D308b98e36dc6D02": {
+            address:"0xD9BA894E0097f8cC2BBc9D24D308b98e36dc6D02",
+            decimals: 18,
+            symbol: "USDT",
+            name: "Tether USD",
+            color: "#000000",
+            compound: "0x2fB298BDbeF468638AD6653FF8376575ea41e768",
+            aave: "",
+            yearn: ""
+        },
+        "0xddea378A6dDC8AfeC82C36E9b0078826bf9e68B6": {
+            address:"0xddea378A6dDC8AfeC82C36E9b0078826bf9e68B6",
+            decimals: 18,
+            symbol: "ZRX",
+            name: "0x",
+            color: "#000000",
+            compound: "0x52201ff1720134bBbBB2f6BC97Bf3715490EC19B",
+            aave: "",
+            yearn: ""
+        },
+        "0xbF7A7169562078c96f0eC1A8aFD6aE50f12e5A99": {
+            address:"0xbF7A7169562078c96f0eC1A8aFD6aE50f12e5A99",
+            decimals: 18,
+            symbol: "BAT",
+            name: "Basic Attention Token",
+            color: "#000000",
+            compound: "0xEBf1A11532b93a529b5bC942B4bAA98647913002",
+            aave: "",
+            yearn: ""
+        },
+
+
+
+    },
+    42:{ // KOVAN AAVE ONLY
+
+    },
+
+
+    137:{ // POLYGON
+
+    },
+    80001:{ // POLYGON TESTNET
+
+    },
+    56:{ // BSC
+
+    },
+    97:{ // BSC TESNET
+
+    }
+
+
+
+
+
     }
 
 };
@@ -271,3 +386,4 @@ export {
     ERC20,
     NETWORK
 }
+

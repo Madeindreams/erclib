@@ -10,11 +10,12 @@ In development. More Networks and features are coming
 
 > *address should be checksumed*
 
+
 ```const usdc = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"```
 
-```ERC20[usdc].decimals  // output decimals of asset```
+```ERC20[network_id][usdc].decimals  // output decimals of asset```
 
-```ERC20[usdc].compound  // output cToken address```
+```ERC20[network_id][usdc].compound  // output cToken address```
 
 
 # Supported Network
@@ -22,13 +23,11 @@ In development. More Networks and features are coming
 - Ethereum
 - Polygon
 - BSC
-- xDAI
 
-# Supported Protocols
+# Supported Testnet & protocols
 
-- Compound
-- Aave
-- Yearn
+- Compound (Rinkeby)
+- Aave (kovan)
 
 
 Please repport any issues!
