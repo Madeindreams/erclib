@@ -1,13 +1,4 @@
 
-const PROTOCOL = {
-
-    compound:{ 
-  
-        name:"Ethereum"
-    },
-
-}
-
 
 const NETWORK =
 {
@@ -116,8 +107,6 @@ const NETWORK =
 const ERC20 = {
     // mainet
     1:{
- 
-        // ETH
         "0x0000000000000000000000000000000000000000": {
             // default
             decimals: 18,
@@ -128,12 +117,8 @@ const ERC20 = {
             compound:"0x4Ddc2D193948926D02f9B1fE9e1daa0718270ED5",
             aave: "0x030bA81f1c18d280636F32af80b9AAd02Cf0854e",
             yearn: "0xa258C4606Ca8206D8aA700cE2143D7db854D168c"
-
         },
-
-        // DAI
         "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
- 
             decimals: 18,
             symbol: "DAI",
             name: "Dai Stablecoin",
@@ -142,7 +127,6 @@ const ERC20 = {
             compound: "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643",
             aave: "0x028171bCA77440897B824Ca71D1c56caC55b68A3",
             yearn: "0xdA816459F1AB5631232FE5e97a05BBBb94970c95"
-      
         },
         "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
             address:"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
@@ -283,12 +267,164 @@ const ERC20 = {
             compound: "0xB3319f5D18Bc0D84dD1b4825Dcde5d5f7266d407",
             aave: "0xDf7FF54aAcAcbFf42dfe29DD6144A69b629f8C9e",
             yearn: ""
+        },
+        "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643": {
+            address:"0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643",
+            decimals: 8,
+            symbol: "cDAI",
+            name: "Compound Dai (cDai)",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0xe65cdB6479BaC1e22340E4E755fAE7E509EcD06c": {
+            address:"0xe65cdB6479BaC1e22340E4E755fAE7E509EcD06c",
+            decimals: 8,
+            symbol: "cAAVE",
+            name: "Compound Aave (cAAVE)",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0x6C8c6b02E7b2BE14d4fA6022Dfd6d75921D90E4E": {
+            address:"0x6C8c6b02E7b2BE14d4fA6022Dfd6d75921D90E4E",
+            decimals: 8,
+            symbol: "cBAT",
+            name: "Compound Basic Attention Token (cBAT)",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0x70e36f6BF80a52b3B46b3aF8e106CC0ed743E8e4": {
+            address:"0x70e36f6BF80a52b3B46b3aF8e106CC0ed743E8e4",
+            decimals: 8,
+            symbol: "cCOMP",
+            name: "Compound Collateral (cCOMP)",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0x4Ddc2D193948926D02f9B1fE9e1daa0718270ED5": {
+            address:"0x4Ddc2D193948926D02f9B1fE9e1daa0718270ED5",
+            decimals: 8,
+            symbol: "cETH",
+            name: "Compound Ether (cETH)",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0xFAce851a4921ce59e912d19329929CE6da6EB0c7": {
+            address:"0xFAce851a4921ce59e912d19329929CE6da6EB0c7",
+            decimals: 8,
+            symbol: "cLINK",
+            name: "Compound ChainLink Token (cLINK)",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0x95b4eF2869eBD94BEb4eEE400a99824BF5DC325b": {
+            address:"0x95b4eF2869eBD94BEb4eEE400a99824BF5DC325b",
+            decimals: 8,
+            symbol: "cMKR",
+            name: "Compound Maker (cMKR)",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0x4B0181102A0112A2ef11AbEE5563bb4a3176c9d7": {
+            address:"0x4B0181102A0112A2ef11AbEE5563bb4a3176c9d7",
+            decimals: 8,
+            symbol: "cSUSHI",
+            name: "Compound Sushi Token (cSUSHI)",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0x12392F67bdf24faE0AF363c24aC620a2f67DAd86": {
+            address:"0x12392F67bdf24faE0AF363c24aC620a2f67DAd86",
+            decimals: 8,
+            symbol: "cTUSD",
+            name: "Compound TrueUSD (cTUSD)",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0x35A18000230DA775CAc24873d00Ff85BccdeD550": {
+            address:"0x35A18000230DA775CAc24873d00Ff85BccdeD550",
+            decimals: 8,
+            symbol: "cUNI",
+            name: "Compound Uniswap (cUNI)",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0x39AA39c021dfbaE8faC545936693aC917d5E7563": {
+            address:"0x39AA39c021dfbaE8faC545936693aC917d5E7563",
+            decimals: 8,
+            symbol: "cUSDC",
+            name: "Compound USD Coin (cUSDC)",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0xf650C3d88D12dB855b8bf7D11Be6C55A4e07dCC9": {
+            address:"0xf650C3d88D12dB855b8bf7D11Be6C55A4e07dCC9",
+            decimals: 8,
+            symbol: "cUSDT",
+            name: "Compound USDT (cUSDT)",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0xccF4429DB6322D5C611ee964527D42E5d685DD6a": {
+            address:"0xccF4429DB6322D5C611ee964527D42E5d685DD6a",
+            decimals: 8,
+            symbol: "cWBTC",
+            name: "Compound Wrapped BTC (cWBTC)",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0x80a2AE356fc9ef4305676f7a3E2Ed04e12C33946": {
+            address:"0x80a2AE356fc9ef4305676f7a3E2Ed04e12C33946",
+            decimals: 8,
+            symbol: "cYFI",
+            name: "Compound yearn.finance (cYFI)",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0xB3319f5D18Bc0D84dD1b4825Dcde5d5f7266d407": {
+            address:"0xB3319f5D18Bc0D84dD1b4825Dcde5d5f7266d407",
+            decimals: 8,
+            symbol: "cZRX",
+            name: "Compound 0x (cZRX)",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
         }
+
+
+
     },
     4:{  // RINKEBY COMPOUND ONLY
          // ETH
         "0x0000000000000000000000000000000000000000": {
-
             decimals: 18,
             symbol: "ETH",
             name: "Ether",
@@ -300,7 +436,6 @@ const ERC20 = {
         },
         // DAI
         "0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa": {
-
             decimals: 18,
             symbol: "DAI",
             name: "Dai Stablecoin",
@@ -312,7 +447,6 @@ const ERC20 = {
   
         }, 
         "0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b": {
-
             address:"0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b",
             decimals: 8,
             symbol: "USDC",
