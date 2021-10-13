@@ -24,7 +24,7 @@ const NETWORK =
         chain: "ETH",
         chainId: 4,
         type: "Testnet",
-        explorer: "https://ringeby.etherscan.io/address/"
+        explorer: "https://rinkeby.etherscan.io/address/"
     },
     5: {
         id: 5,
@@ -40,7 +40,7 @@ const NETWORK =
         chain: "ETH",
         chainId: 42,
         type: "Testnet",
-        explorer: "https://kovan.goerli.etherscan.io/address/"
+        explorer: "https://kovan.etherscan.io/address/"
     },
     2018: {
         id: 2018,
@@ -496,13 +496,52 @@ const ERC20 = {
 
 
     137:{ // POLYGON
+        "0x0000000000000000000000000000000000000000": {
+            decimals: 18,
+            symbol: "MATIC",
+            name: "MATIC",
+            color: "#000000",
+            address:"0x0000000000000000000000000000000000000000",
+            aave: ""
+        },
+        "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
+            decimals: 18,
+            symbol: "WETH",
+            name: "Wrapped Ether (WETH)",
+            color: "#000000",
+            address:"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+            aave: ""
+        },
+        "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063": {
+            decimals: 18,
+            symbol: "DAI",
+            name: "(POS) Dai Stablecoin (DAI)",
+            color: "#000000",
+            address:"0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+            aave: "0x27F8D03b3a2196956ED754baDc28D73be8830A6e"
+        },
+        "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174": {
+            decimals: 6,
+            symbol: "USDC",
+            name: "(POS) USD Coin (USDC)",
+            color: "#000000",
+            address:"0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            aave: "0x1a13F4Ca1d028320A707D99520AbFefca3998b7F"
+        },
+
 
     },
     80001:{ // POLYGON TESTNET
 
     },
     56:{ // BSC
-
+        "0x0000000000000000000000000000000000000000": {
+            decimals: 18,
+            symbol: "BNB",
+            name: "BNB",
+            color: "#000000",
+            address:"0x0000000000000000000000000000000000000000"
+        },
     },
     97:{ // BSC TESNET
 
