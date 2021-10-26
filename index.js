@@ -2,6 +2,14 @@
 
 const NETWORK =
 {
+    72: {
+        id: 72,
+        network: "idecentralize",
+        chain: "IDFI",
+        chainId: 72,
+        type: "Development",
+        explorer: ""
+    },
     1: {
         id: 1,
         network: "Mainnet",
@@ -559,7 +567,22 @@ const ERC20 = {
             yearn: ""
 
         },
+    },
+    72:{
+        "0x0000000000000000000000000000000000000000": {
+            // default
+            decimals: 18,
+            symbol: "IDFI",
+            name: "idecentralize.finance coin",
+            color: "#000000",
+            address:"0x0000000000000000000000000000000000000000",
+            compound:"",
+            aave: "",
+            yearn: ""
+
+        },
     }
+
 
 
 
