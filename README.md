@@ -1,4 +1,6 @@
 # erclib
+[![Version npm](https://img.shields.io/npm/v/@idecentralize/erclib.svg?logo=npm)](https://www.npmjs.com/package/@idecentralize/erclib)
+
 ERC library for blockchain Development
 
 In development. More Networks and features are coming

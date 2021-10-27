@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/Madeindreams/erclib#readme",
   "dependencies": {
-
+    "coveralls": "^3.1.1"
   }
 }
