@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "coverage": " nyc report --reporter=text-lcov | coveralls",
-    "test": "nyc --reporter=html --reporter=text mocha --timeout 10000 --exit --require babel-register test/index.js"
+    "build-test": "nyc --reporter lcov --reporter nyan mocha ./test/index.js --reporter nyc",
+    "test": "nyc --reporter=lcov --reporter=text-lcov  --all mocha "
   },
   "repository": {
     "type": "git",
