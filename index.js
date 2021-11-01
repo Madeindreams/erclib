@@ -442,6 +442,16 @@ const ERC20 = {
             aave: "",
             yearn: ""
         },
+        "0xd6801a1DfFCd0a410336Ef88DeF4320D6DF1883e": {
+            decimals: 8,
+            symbol: "cETH",
+            name: "Compound Ether",
+            color: "#000000",
+            address:"0xd6801a1DfFCd0a410336Ef88DeF4320D6DF1883e",
+            compound:"",
+            aave: "",
+            yearn: ""
+        },
         // DAI
         "0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa": {
             decimals: 18,
@@ -450,6 +460,17 @@ const ERC20 = {
             color: "#000000",
             address:"0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa",
             compound: "0x6D7F0754FFeb405d23C51CE938289d4835bE3b14",
+            aave: "",
+            yearn: ""
+  
+        }, 
+        "0x6D7F0754FFeb405d23C51CE938289d4835bE3b14": {
+            decimals: 18,
+            symbol: "cDAI",
+            name: "Compound Dai Stablecoin",
+            color: "#000000",
+            address:"0x6D7F0754FFeb405d23C51CE938289d4835bE3b14",
+            compound: "",
             aave: "",
             yearn: ""
   
@@ -464,6 +485,18 @@ const ERC20 = {
             aave: "",
             yearn: ""
         },
+
+        "0x5B281A6DdA0B271e91ae35DE655Ad301C976edb1": {
+            address:"0x5B281A6DdA0B271e91ae35DE655Ad301C976edb1",
+            decimals: 8,
+            symbol: "cUSDC",
+            name: "Compound USD Coin",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+
         "0xD9BA894E0097f8cC2BBc9D24D308b98e36dc6D02": {
             address:"0xD9BA894E0097f8cC2BBc9D24D308b98e36dc6D02",
             decimals: 18,
@@ -474,6 +507,18 @@ const ERC20 = {
             aave: "",
             yearn: ""
         },
+
+        "0x2fB298BDbeF468638AD6653FF8376575ea41e768": {
+            address:"0x2fB298BDbeF468638AD6653FF8376575ea41e768",
+            decimals: 8,
+            symbol: "cUSDT",
+            name: "Compound Tether USD",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+
         "0xddea378A6dDC8AfeC82C36E9b0078826bf9e68B6": {
             address:"0xddea378A6dDC8AfeC82C36E9b0078826bf9e68B6",
             decimals: 18,
@@ -484,6 +529,17 @@ const ERC20 = {
             aave: "",
             yearn: ""
         },
+        "0x52201ff1720134bBbBB2f6BC97Bf3715490EC19B": {
+            address:"0x52201ff1720134bBbBB2f6BC97Bf3715490EC19B",
+            decimals: 8,
+            symbol: "cZRX",
+            name: "Compound 0x",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+
         "0xbF7A7169562078c96f0eC1A8aFD6aE50f12e5A99": {
             address:"0xbF7A7169562078c96f0eC1A8aFD6aE50f12e5A99",
             decimals: 18,
@@ -494,7 +550,16 @@ const ERC20 = {
             aave: "",
             yearn: ""
         },
-
+        "0xEBf1A11532b93a529b5bC942B4bAA98647913002": {
+            address:"0xEBf1A11532b93a529b5bC942B4bAA98647913002",
+            decimals: 8,
+            symbol: "cBAT",
+            name: "Compound Basic Attention Token",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
     
 
     },
