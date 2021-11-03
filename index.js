@@ -464,6 +464,7 @@ const ERC20 = {
             yearn: ""
   
         }, 
+       
         "0x6D7F0754FFeb405d23C51CE938289d4835bE3b14": {
             decimals: 18,
             symbol: "cDAI",
@@ -649,17 +650,14 @@ const ERC20 = {
     }
 
 
-
-
-
-
-    
-
 };
 
 
+const IPFS_SVG_PATH = "https://ipfs.io/ipfs/QmdUn2HLafKVbojmjdUM3CKEJYT7nL4Wm4wAwRCf9Zsuhi/"
+
 export {
     ERC20,
-    NETWORK
+    NETWORK,
+    IPFS_SVG_PATH
 }
 

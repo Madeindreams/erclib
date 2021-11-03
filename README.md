@@ -5,9 +5,14 @@
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/Madeindreams/erclib.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Madeindreams/erclib/alerts/)
 
 
+
 ERC library for blockchain Development
 
-In development. More Networks and features are coming
+The svg files of all assets contained in this library can be found on IPFS
+
+QmdUn2HLafKVbojmjdUM3CKEJYT7nL4Wm4wAwRCf9Zsuhi
+
+In development. More networks, asset's and features are coming...
 
 ## Install and import
 
@@ -28,6 +33,13 @@ In development. More Networks and features are coming
 > HINT:*When forking the mainnet use a condition to use mainnet asset.*
 
 
+## LOGO
+
+```import IPFS_SVG_PATH from "@idecentralize/erclib"```
+
+
+```<image src={IPFS_SVG_PATH + ERC20[network_id][usdc].symbol + '.svg'} alt={ERC20[network_id][usdc].symbol} />```
+
 network_id should be the chain id return by the provider.
 When forking the mainnet using hardhat, the network id is 31337 and we want to use the mainnet asset under network id 1.
 
@@ -36,10 +48,17 @@ When forking the mainnet using hardhat, the network id is 31337 and we want to u
 
 This will use the mainnet id on the library when forking.
 
+## SVG LOGO
+
+I addition you can use the library and IPFS to add the images of the assets in your apps.
+
+
+
+
 
 
 # Supported Network
-
+- IPFS
 - Ethereum
 - Polygon
 - BSC
