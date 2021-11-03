@@ -10,7 +10,7 @@ ERC library for blockchain Development
 
 The svg files of all assets contained in this library can be found on IPFS
 
-QmdUn2HLafKVbojmjdUM3CKEJYT7nL4Wm4wAwRCf9Zsuhi
+QmP7Jw11Xxrmf9vd2vKvMgk8LYS4WRCaLjWS6F4FJUJezi
 
 In development. More networks, asset's and features are coming...
 

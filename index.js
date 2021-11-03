@@ -653,7 +653,7 @@ const ERC20 = {
 };
 
 
-const IPFS_SVG_PATH = "https://ipfs.io/ipfs/QmdUn2HLafKVbojmjdUM3CKEJYT7nL4Wm4wAwRCf9Zsuhi/"
+const IPFS_SVG_PATH = "https://ipfs.io/ipfs/QmP7Jw11Xxrmf9vd2vKvMgk8LYS4WRCaLjWS6F4FJUJezi/"
 
 export {
     ERC20,
