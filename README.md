@@ -69,6 +69,8 @@ I addition you can use the library and IPFS to add the images of the assets in y
 - Aave (kovan)
 
 
-Please repport any issues!
+Please report any issues!
+
+To have add some assets please submit a PR and provide the SVG logo.
 
 
