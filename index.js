@@ -106,6 +106,14 @@ const NETWORK =
         type: "Network",
         explorer: ""
     },
+    1313161555:{
+        id:1313161555,
+        network: "Aurora",
+        chain: "ETH",
+        chainId: 1313161555,
+        type: "testnet",
+        explorer: "https://explorer.testnet.aurora.dev/"
+    }
 
 }
 
@@ -647,10 +655,24 @@ const ERC20 = {
             yearn: ""
 
         },
+
+    },
+    1313161555:{
+        "0x0000000000000000000000000000000000000000": {
+            // default
+            decimals: 18,
+            symbol: "ETH",
+            name: "Ether",
+            color: "#000000",
+            address:"0x0000000000000000000000000000000000000000",
+            compound:"",
+            aave: "",
+            yearn: ""
+        }
     }
 
 
-};
+}
 
 
 const IPFS_SVG_PATH = "https://ipfs.io/ipfs/QmP7Jw11Xxrmf9vd2vKvMgk8LYS4WRCaLjWS6F4FJUJezi/"
