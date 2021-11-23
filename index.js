@@ -109,7 +109,7 @@ const NETWORK =
     1313161555:{
         id:1313161555,
         network: "Aurora",
-        chain: "ETH",
+        chain: "AURORA",
         chainId: 1313161555,
         type: "testnet",
         explorer: "https://explorer.testnet.aurora.dev/"

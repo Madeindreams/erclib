@@ -1,6 +1,6 @@
 {
   "name": "@idecentralize/erclib",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "ERC library for blockchain development",
   "main": "index.js",
   "type": "module",
