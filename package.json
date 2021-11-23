@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/Madeindreams/erclib#readme",
   "dependencies": {
-   
+    "user": "^0.0.0"
   },
   "directories": {
     "test": "test"
