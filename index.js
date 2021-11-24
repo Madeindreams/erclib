@@ -64,7 +64,8 @@ const NETWORK =
         chain: "MATIC",
         chainId: 137,
         type: "Network",
-        explorer: "https://polygonscan.com/address/"
+        rpc:"https://rpc-mainnet.maticvigil.com",
+        explorer: "https://polygonscan.com/"
     },
     80001: {
         id: 80001,
@@ -72,7 +73,8 @@ const NETWORK =
         chain: "MATIC",
         chainId: 80001,
         type: "Testnet",
-        explorer: "https://mumbai.polygonscan.com/address/"
+        rpc:"https://rpc-mumbai.matic.today",
+        explorer: "https://mumbai.polygonscan.com/"
     },
     56: {
         id: 56,
@@ -80,7 +82,8 @@ const NETWORK =
         chain: "BNB",
         chainId: 56,
         type: "Network",
-        explorer: "https://bscscan.com/address/"
+        rpc:"https://bsc-dataseed.binance.org/",
+        explorer: "https://bscscan.com/"
     },
     97: {
         id: 97,
@@ -88,6 +91,7 @@ const NETWORK =
         chain: "BNB",
         chainId: 97,
         type: "Testnet",
+        rpc:"https://data-seed-prebsc-1-s1.binance.org:8545/",
         explorer: "https://testnet.bscscan.com/"
     },
     100: {
@@ -96,23 +100,37 @@ const NETWORK =
         chain: "xDAI",
         chainId: 100,
         type: "Network",
-        explorer: "https://testnet.bscscan.com/"
+        rpc:"https://rpc.xdaichain.com/",
+        explorer: "https://blockscout.com/xdai/mainnet/"
     },
     31337: {
         id: 31337,
-        network: "Local",
+        network: "Hardhat",
         chain: "ETH",
         chainId: 31337,
-        type: "Network",
+        type: "Local",
+        rpc: "",
         explorer: ""
     },
     1313161555:{
         id:1313161555,
         network: "Aurora",
         chain: "AURORA",
+        symbol:"ETH",
         chainId: 1313161555,
-        type: "testnet",
+        type: "Testnet",
+        rpc:"https://testnet.aurora.dev",
         explorer: "https://explorer.testnet.aurora.dev/"
+    },
+    1313161554:{
+        id:1313161554,
+        network: "Aurora",
+        chain: "AURORA",
+        symbol:"ETH",
+        chainId: 1313161554,
+        type: "Network",
+        rpc:"https://mainnet.aurora.dev",
+        explorer: "https://explorer.aurora.dev/"
     }
 
 }
@@ -668,8 +686,137 @@ const ERC20 = {
             compound:"",
             aave: "",
             yearn: ""
-        }
-    }
+        },
+
+
+    },
+    1313161554:{
+        "0x0000000000000000000000000000000000000000": {
+            // default
+            decimals: 18,
+            symbol: "ETH",
+            name: "Ether",
+            color: "#000000",
+            address:"0x0000000000000000000000000000000000000000",
+            compound:"",
+            aave: "",
+            yearn: ""
+        },
+        "0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79": {
+            decimals: 18,
+            symbol: "DAI",
+            name: "Dai Stablecoin",
+            color: "#000000",
+            address:"0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0xB12BFcA5A55806AaF64E99521918A4bf0fC40802": {
+            address:"0xB12BFcA5A55806AaF64E99521918A4bf0fC40802",
+            decimals: 6,
+            symbol: "USDC",
+            name: "USD Coin",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0x4988a896b1227218e4A686fdE5EabdcAbd91571f": {
+            address:"0x4988a896b1227218e4A686fdE5EabdcAbd91571f",
+            decimals: 6,
+            symbol: "USDT",
+            name: "Tether USD",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0xF4eB217Ba2454613b15dBdea6e5f22276410e89e": {
+            address:"0xF4eB217Ba2454613b15dBdea6e5f22276410e89e",
+            decimals: 8,
+            symbol: "WBTC",
+            name: "Wrapped BTC",
+            color: "#000000",
+            compound: "",
+            aave:"",
+            yearn: ""
+        },
+        "0xdEaCF0faa2B80aF41470003b5f6Cd113d47B4Dcd": {
+            address:"0xdEaCF0faa2B80aF41470003b5f6Cd113d47B4Dcd",
+            decimals: 18,
+            symbol: "COMP",
+            name: "Compound",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0x4e834cDCc911605227eedDDb89Fad336AB9dc00a": {
+            address:"0x4e834cDCc911605227eedDDb89Fad336AB9dc00a",
+            decimals: 18,
+            symbol: "AAVE",
+            name: "Aave Token",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0x2b9025aecc5Ce7A8E6880D3E9c6E458927eCba04": {
+            address:"0x2b9025aecc5Ce7A8E6880D3E9c6E458927eCba04",
+            decimals: 18,
+            symbol: "BAT",
+            name: "Basic Attention Token",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0x94190d8EF039C670c6d6B9990142e0CE2A1E3178": {
+            address:"0x94190d8EF039C670c6d6B9990142e0CE2A1E3178",
+            decimals: 18,
+            symbol: "LINK",
+            name: "ChainLink Token",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0x7821c773a12485b12a2b5b7BC451c3eB200986b1": {
+            address:"0x7821c773a12485b12a2b5b7BC451c3eB200986b1",
+            decimals: 18,
+            symbol: "SUSHI",
+            name: "SushiToken",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0x1Bc741235EC0Ee86ad488fa49B69Bb6C823eE7b7": {
+            address:"0x1Bc741235EC0Ee86ad488fa49B69Bb6C823eE7b7",
+            decimals: 18,
+            symbol: "UNI",
+            name: "Uniswap",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+        "0xA64514A8Af3Ff7366ad3d5Daa5A548EEFceF85e0": {
+            address:"0xA64514A8Af3Ff7366ad3d5Daa5A548EEFceF85e0",
+            decimals: 18,
+            symbol: "YFI",
+            name: "yearn.finance",
+            color: "#000000",
+            compound: "",
+            aave: "",
+            yearn: ""
+        },
+ 
+
+
+    },
+
 
 
 }
