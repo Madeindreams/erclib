@@ -131,7 +131,28 @@ const NETWORK =
         type: "Network",
         rpc:"https://mainnet.aurora.dev",
         explorer: "https://explorer.aurora.dev/"
-    }
+    },
+    43114:{
+        id:43114,
+        network: "Avalanche",
+        chain: "AVAX",
+        symbol:"AVAX",
+        chainId: 43114,
+        type: "Network",
+        rpc:"https://api.avax.network/ext/bc/C/rpc",
+        explorer: "https://cchain.explorer.avax.network/"
+    },
+    43113:{
+        id:43113,
+        network: "Avalanche Fuji",
+        chain: "AVAX",
+        symbol:"AVAX",
+        chainId: 43114,
+        type: "Testnet",
+        rpc:"https://api.avax-test.network/ext/bc/C/rpc",
+        explorer: "https://testnet.explorer.avax.network/"
+    },
+
 
 }
 
@@ -591,11 +612,22 @@ const ERC20 = {
 
     },
     42:{ // KOVAN AAVE ONLY
+        "0x0000000000000000000000000000000000000000": {
+            decimals: 18,
+            symbol: "ETH",
+            name: "Ether",
+            color: "#000000",
+            address:"0x0000000000000000000000000000000000000000",
+            compound:"0x41B5844f4680a8C38fBb695b7F9CFd1F64474a72",
+            aave: "",
+            yearn: ""
+        },
 
     },
 
 
     137:{ // POLYGON
+        // default
         "0x0000000000000000000000000000000000000000": {
             decimals: 18,
             symbol: "MATIC",
@@ -632,9 +664,19 @@ const ERC20 = {
 
     },
     80001:{ // POLYGON TESTNET
+        // default
+        "0x0000000000000000000000000000000000000000": {
+            decimals: 18,
+            symbol: "MATIC",
+            name: "MATIC",
+            color: "#000000",
+            address:"0x0000000000000000000000000000000000000000",
+            aave: ""
+        },
 
     },
     56:{ // BSC
+        // default
         "0x0000000000000000000000000000000000000000": {
             decimals: 18,
             symbol: "BNB",
@@ -644,6 +686,7 @@ const ERC20 = {
         },
     },
     97:{ // BSC TESNET
+        // default
         "0x0000000000000000000000000000000000000000": {
             decimals: 18,
             symbol: "BNB",
@@ -653,7 +696,8 @@ const ERC20 = {
         },
 
     },
-    100:{ // BSC
+    100:{ // xDAI
+        // default
         "0x0000000000000000000000000000000000000000": {
             decimals: 18,
             symbol: "xDAI",
@@ -662,7 +706,7 @@ const ERC20 = {
             address:"0x0000000000000000000000000000000000000000"
         },
     },
-    31337:{
+    31337:{// HARDHAT
         "0x0000000000000000000000000000000000000000": {
             // default
             decimals: 18,
@@ -676,12 +720,12 @@ const ERC20 = {
 
         },
     },
-    72:{
+    72:{ // IDFI
         "0x0000000000000000000000000000000000000000": {
             // default
             decimals: 18,
             symbol: "IDFI",
-            name: "idecentralize.finance coin",
+            name: "idecentralize.finance",
             color: "#000000",
             address:"0x0000000000000000000000000000000000000000",
             compound:"",
@@ -691,9 +735,9 @@ const ERC20 = {
         },
 
     },
-    1313161555:{
+    1313161555:{// Aurora Testnet
+        // default
         "0x0000000000000000000000000000000000000000": {
-            // default
             decimals: 18,
             symbol: "ETH",
             name: "Ether",
@@ -706,9 +750,9 @@ const ERC20 = {
 
 
     },
-    1313161554:{
+    1313161554:{// Aurora Mainet
+        // default
         "0x0000000000000000000000000000000000000000": {
-            // default
             decimals: 18,
             symbol: "ETH",
             name: "Ether",
@@ -832,10 +876,37 @@ const ERC20 = {
 
 
     },
-
-
-
+    43114:{ // AVAX Mainet
+            // default
+            "0x0000000000000000000000000000000000000000": {
+                address:"0x0000000000000000000000000000000000000000",
+                decimals: 18,
+                symbol: "AVAX",
+                name: "AVAX",
+                color: "#000000",
+                compound:"",
+                aave: "",
+                yearn: ""
+            },
+    },
+    43113:{ // AVAX Mainet
+            // default
+            "0x0000000000000000000000000000000000000000": {
+                address:"0x0000000000000000000000000000000000000000",
+                decimals: 18,
+                symbol: "AVAX",
+                name: "AVAX",
+                color: "#000000",
+                compound:"",
+                aave: "",
+                yearn: ""
+                },
+    }
 }
+
+
+
+
 
 
 const IPFS_SVG_PATH = "https://ipfs.io/ipfs/QmP7Jw11Xxrmf9vd2vKvMgk8LYS4WRCaLjWS6F4FJUJezi/"
