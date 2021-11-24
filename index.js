@@ -147,7 +147,7 @@ const NETWORK =
         network: "Avalanche Fuji",
         chain: "AVAX",
         symbol:"AVAX",
-        chainId: 43114,
+        chainId: 43113,
         type: "Testnet",
         rpc:"https://api.avax-test.network/ext/bc/C/rpc",
         explorer: "https://testnet.explorer.avax.network/"
@@ -889,7 +889,7 @@ const ERC20 = {
                 yearn: ""
             },
     },
-    43113:{ // AVAX Mainet
+    43113:{ // AVAX Fuji Testnet
             // default
             "0x0000000000000000000000000000000000000000": {
                 address:"0x0000000000000000000000000000000000000000",
