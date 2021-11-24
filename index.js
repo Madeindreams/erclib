@@ -64,7 +64,7 @@ const NETWORK =
         chain: "MATIC",
         chainId: 137,
         type: "Network",
-        rpc:"https://rpc-mainnet.maticvigil.com",
+        rpc:"https://rpc-mainnet.maticvigil.com/",
         explorer: "https://polygonscan.com/"
     },
     80001: {
@@ -73,7 +73,7 @@ const NETWORK =
         chain: "MATIC",
         chainId: 80001,
         type: "Testnet",
-        rpc:"https://rpc-mumbai.matic.today",
+        rpc:"https://rpc-mumbai.maticvigil.com/",
         explorer: "https://mumbai.polygonscan.com/"
     },
     56: {
