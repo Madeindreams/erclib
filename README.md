@@ -8,9 +8,7 @@
 
 ERC library for blockchain Development
 
-The svg files of all assets contained in this library can be found on IPFS
-
-QmP7Jw11Xxrmf9vd2vKvMgk8LYS4WRCaLjWS6F4FJUJezi
+added colors for network and asset's
 
 In development. More networks, asset's and features are coming...
 
@@ -24,21 +22,35 @@ In development. More networks, asset's and features are coming...
 
 ## Usage
 
+set the chain ID
+
+```const chainId = 137 // Polygon ```
+
+for non ethereum metamask (not included ny default in metamask)
+
+you can get the RPC, explorer to add the rpc to metamask or connect to the selected network
+
+``` NETWORK[chainId].rpc // output the rpc URI```
+
+get the asset into on the specific network.
+
 ```const usdc = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"```
 
-```ERC20[network_id][usdc].decimals  // output decimals of asset```
+```ERC20[chainId][usdc].decimals  // output decimals of asset```
 
-```ERC20[network_id][usdc].compound  // output cToken address```
+```ERC20[chainId][usdc].compound  // output cToken address```
 
-> HINT:*When forking the mainnet use a condition to use mainnet asset.*
+```ERC20[chainId][usdc].colors  // HTML color```
 
 
-## LOGO
+## SVG LOGO
 
 ```import IPFS_SVG_PATH from "@idecentralize/erclib"```
 
 
 ```<image src={IPFS_SVG_PATH + ERC20[network_id][usdc].symbol + '.svg'} alt={ERC20[network_id][usdc].symbol} />```
+
+## FORKING
 
 network_id should be the chain id return by the provider.
 When forking the mainnet using hardhat, the network id is 31337 and we want to use the mainnet asset under network id 1.
@@ -48,9 +60,7 @@ When forking the mainnet using hardhat, the network id is 31337 and we want to u
 
 This will use the mainnet id on the library when forking.
 
-## SVG LOGO
 
-I addition you can use the library and IPFS to add the images of the assets in your apps.
 
 
 
@@ -62,12 +72,16 @@ I addition you can use the library and IPFS to add the images of the assets in y
 - Ethereum
 - Polygon
 - BSC
+- Aurora
+- Avanlance
+- xDai
+
 
 # Supported Testnet & protocols
 
-- Compound (Rinkeby)
-- Aave (kovan)
-
+- Compound 
+- Aave 
+- Yearn v2 
 
 Please report any issues!
 
