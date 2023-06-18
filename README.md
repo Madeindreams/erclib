@@ -1,8 +1,7 @@
 # erclib
 [![Version npm](https://img.shields.io/npm/v/@idecentralize/erclib.svg?logo=npm)](https://www.npmjs.com/package/@idecentralize/erclib)
-[![Node.js CI](https://github.com/Madeindreams/erclib/actions/workflows/node.js.yml/badge.svg)](https://github.com/Madeindreams/erclib/actions/workflows/node.js.yml)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Madeindreams/erclib.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Madeindreams/erclib/context:javascript)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/Madeindreams/erclib.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Madeindreams/erclib/alerts/)
+[![Node.js CI](https://github.com/Madeindreams/erclib/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/Madeindreams/erclib/actions/workflows/npm-publish.yml)
+
 
 
 
